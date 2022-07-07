@@ -4,10 +4,6 @@
     padding: 0;
 }
 
-.w-300px {
-    width: 280px;
-}
-
 .bg-very-light {
     background-color: #fdfdfd !important;
 }
@@ -21,6 +17,25 @@
 #navmenu {
     box-shadow: 1px 1px 3px #bbb;
     z-index: 10;
+}
+
+/* 
+* hover effect on nav links
+*/
+
+.nav-link {
+    width: 200px;
+    text-transform: uppercase; 
+}
+.nav-link:after {
+  display: block;
+  content: '';
+  border-bottom: solid 1px black;  
+  transform: scaleX(0);  
+  transition: transform 250ms ease-in-out;
+}
+.nav-link:hover:after { 
+    transform: scaleX(1); 
 }
 
 .small-line {
@@ -106,6 +121,10 @@
 
 .contact-col-border-bottom a:hover {
     background-color: rgba(0, 0, 0, 0.03);
+}
+
+.contact-col-width {
+    width: 280px;
 }
 
 @media (min-width: 992px) {
