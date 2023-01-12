@@ -4,13 +4,28 @@
     padding: 0;
 }
 
+body {
+    background-color: hsl(0, 0%, 96%) !important;
+}
+
+.main-content-max-width {
+    max-width: 1850px;
+}
+
 .bg-very-light {
     background-color: #fdfdfd !important;
 }
 
+.bg-gray {
+    background-color: #ccc;
+}
+
+.bg-our-pink {
+    background-color: hsl(32, 50%,96%);
+}
+
 .navbar {
     box-shadow: 1px 1px 3px #bbb;
-    background-color: #fdf5ec;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -19,6 +34,13 @@
     z-index: 10;
 }
 
+.word-inside-logo {
+    font-size: 16px;
+    bottom: -1px;
+    left: 41px;
+    text-transform: uppercase;
+    font-family: cursive;
+}
 /* 
 * hover effect on nav links
 */
@@ -27,6 +49,7 @@
     width: 200px;
     text-transform: uppercase; 
 }
+
 .nav-link:after {
   display: block;
   content: '';
@@ -48,11 +71,19 @@
     object-fit: cover;
 }
 
+h1 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 @media (min-width: 576px) {
     .old-bathtub {
         width: initial;
         height: initial;
         object-fit: initial;
+    }
+
+    h1 {
+        font-size: 50px !important;
     }
 }
 
@@ -64,9 +95,13 @@
     object-fit: cover;
 }
 
+.big-paragraph {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 @media (min-width: 576px) {
-    .what-we-do {
-        font-size: 30px;
+    .big-paragraph {
+        font-size: 35px;
     }
 }
 
@@ -76,6 +111,14 @@
 
 .booking-button:hover {
     background-color: rgba(0, 0, 0, 0.75) !important;
+}
+
+/* 
+* Pricing
+ */
+
+.pricing-ul li {
+    background-color: hsl(0, 0%, 96%) !important;
 }
 
 .tiny-text {
@@ -95,9 +138,9 @@
 }
 
 .see-galary {
-    height: 250px;
+    height: 400px;
     background-image: url(/images/pic-7.jpg);
-    background-size: 100%;
+    background-size: cover;
     background-position: center;
 }
 
@@ -115,16 +158,20 @@
     background-color: rgba(0, 0, 0, 0.1);
 }
 
+/* 
+* contact coloumns
+*/
+.contact-us-item {
+    background-color: hsl(0, 0%, 96%);
+}
+
 .contact-col-border-bottom a {
     border-bottom: 1px solid #ddd;
+    border-radius: 6px;
 }
 
 .contact-col-border-bottom a:hover {
-    background-color: rgba(0, 0, 0, 0.03);
-}
-
-.contact-col-width {
-    width: 280px;
+    background-color: rgba(0, 0, 0, 0.07);
 }
 
 @media (min-width: 992px) {
@@ -137,7 +184,7 @@
 }
 
 footer {
-    background-color: #fdf5ec;
+    background-color: hsl(32, 50%, 96%);
 }
 
 
