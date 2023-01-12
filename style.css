@@ -139,7 +139,7 @@ h1 {
 
 .see-galary {
     height: 400px;
-    background-image: url(/images/pic-7.jpg);
+    background-image: url(images/pic-7.jpg);
     background-size: cover;
     background-position: center;
 }
