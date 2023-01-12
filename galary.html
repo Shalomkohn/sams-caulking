@@ -1,90 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=\, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=\, initial-scale=1.0" />
     <!-- bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
     <!-- bootstrap icons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
+    />
     <!-- stylsheet -->
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="style.css" />
 
     <title>Photo Galary</title>
-</head>
-<body class="bg-very-light">
+  </head>
+  <body class="bg-very-light">
     <!-- Header start ----------------------------------------------------------------------------------------------------------------------------->
     <header>
-        <nav class="navbar navbar-dark fixed-top py-1">
-            <div class="container-lg">
-                <a href="/" class="navbar-brand"><img src="/images/caulk.png" width="90px" alt="caulk gun"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="bi bi-list fs-1 text-dark"></i>
-                </button>
-            </div>
-        </nav>
-
-        <div class="collapse navbar-collapse position-fixed bg-white w-100" id="navmenu">
-            <ul class="navbar-nav pt-5 text-end text-center bg-very-light">
-                <div class="nav-item text-muted fs-7 mt-4 d-sm-none">Sams Shower Caulking - Queens</div>
-                <li class="nav-item mt-5 lead">
-                    <a href="/book.html" class="nav-link">Scedule a visit</a>
-                </li>
-                <li class="nav-item mt-4 lead">
-                    <a href="/index.html#contact-us" class="nav-link">Contact Us</a>
-                </li>
-                <li class="nav-item mt-4 lead">
-                    <a href="/index.html#pricing" class="nav-link">Pricing</a>
-                </li>
-                <li class="nav-item mt-4 lead">
-                    <a href="/what-we-do.html" class="nav-link">What we do</a>
-                </li>
-                <li class="nav-item mt-4 pb-5 lead">
-                    <a href="/galary.html" class="nav-link">Photo Galary</a>
-                </li>
-                <div class="text-muted tiny-text p-2">Design + Development by <a href="https://shalomkohn.com" target="_blank" class="text-decoration-none text-dark">Shalom web developement</a></div>
-            </ul>
+      <nav class="navbar navbar-dark fixed-top py-1">
+        <div class="container-lg">
+          <a href="/" class="navbar-brand"
+            ><img src="images/caulk.png" width="90px" alt="caulk gun"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navmenu"
+            aria-controls="navbar"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="bi bi-list fs-1 text-dark"></i>
+          </button>
         </div>
+      </nav>
+
+      <div
+        class="collapse navbar-collapse position-fixed bg-white w-100"
+        id="navmenu"
+      >
+        <ul class="navbar-nav pt-5 text-end text-center bg-very-light">
+          <div class="nav-item text-muted fs-7 mt-4 d-sm-none">
+            Sams Shower Caulking - Queens
+          </div>
+          <li class="nav-item mt-5 lead">
+            <a href="book.html" class="nav-link">Scedule a visit</a>
+          </li>
+          <li class="nav-item mt-4 lead">
+            <a href="index.html#contact-us" class="nav-link">Contact Us</a>
+          </li>
+          <li class="nav-item mt-4 lead">
+            <a href="index.html#pricing" class="nav-link">Pricing</a>
+          </li>
+          <li class="nav-item mt-4 lead">
+            <a href="what-we-do.html" class="nav-link">What we do</a>
+          </li>
+          <li class="nav-item mt-4 pb-5 lead">
+            <a href="galary.html" class="nav-link">Photo Galary</a>
+          </li>
+          <div class="text-muted tiny-text p-2">
+            Design + Development by
+            <a
+              href="https://shalomkohn.com"
+              target="_blank"
+              class="text-decoration-none text-dark"
+              >Shalom web developement</a
+            >
+          </div>
+        </ul>
+      </div>
     </header>
 
-<!-- Header end ----------------------------------------------------------------------------------------------------------------------------->
-<!-- Galary start
+    <!-- Header end ----------------------------------------------------------------------------------------------------------------------------->
+    <!-- Galary start
     ----------------------------------------------------------------------------------------------------------------------------->
     <div class="container mt-sm-5 py-5">
-        <h3 class="my-5 text-center">Have a look at some of our recent jobs</h3>
-        <div class="row g-3 galary-row">
-            <img class="col-lg-6" src="/images/pic-1.jpg" alt="picture-1">
-            <img class="col-lg-6" src="/images/pic-2.jpg" alt="picture-2">
-            <img class="col-lg-6" src="/images/pic-3.jpg" alt="picture-3">
-            <img class="col-lg-6" src="/images/pic-4.jpg" alt="picture-4">
-            <img class="col-lg-6" src="/images/pic-5.jpg" alt="picture-5">
-            <img class="col-lg-6" src="/images/pic-6.jpg" alt="picture-6">
-            <img class="col-lg-6" src="/images/pic-7.jpg" alt="picture-7">
-            <img class="col-lg-6" src="/images/pic-8.jpg" alt="picture-8">
-            <img class="col-lg-6" src="/images/pic-9.jpg" alt="picture-9">
-            <img class="col-lg-6" src="/images/pic-10.jpg" alt="picture-10">
-            <img class="col-lg-6" src="/images/pic-11.jpg" alt="picture-11">
-            <img class="col-lg-6" src="/images/pic-12.jpg" alt="picture-12">
-            <img class="col-lg-6" src="/images/pic-13.jpg" alt="picture-13">
-            <img class="col-lg-6" src="/images/pic-14.jpg" alt="picture-14">
+      <h3 class="my-5 text-center">Have a look at some of our recent jobs</h3>
+      <div class="row g-3 galary-row">
+        <img class="col-lg-6" src="images/pic-1.jpg" alt="picture-1" />
+        <img class="col-lg-6" src="images/pic-2.jpg" alt="picture-2" />
+        <img class="col-lg-6" src="images/pic-4.jpg" alt="picture-4" />
+        <img class="col-lg-6" src="images/pic-3.jpg" alt="picture-3" />
+        <img class="col-lg-6" src="images/pic-5.jpg" alt="picture-5" />
+        <img class="col-lg-6" src="images/pic-6.jpg" alt="picture-6" />
+        <img class="col-lg-6" src="images/pic-7.jpg" alt="picture-7" />
+        <img class="col-lg-6" src="images/pic-8.jpg" alt="picture-8" />
+        <img class="col-lg-6" src="images/pic-9.jpg" alt="picture-9" />
+        <img class="col-lg-6" src="images/pic-10.jpg" alt="picture-10" />
+        <img class="col-lg-6" src="images/pic-11.jpg" alt="picture-11" />
+        <img class="col-lg-6" src="images/pic-12.jpg" alt="picture-12" />
+        <img class="col-lg-6" src="images/pic-13.jpg" alt="picture-13" />
+        <img class="col-lg-6" src="images/pic-14.jpg" alt="picture-14" />
+      </div>
+    </div>
+    <!-- Galary End ----------------------------------------------------------------------------------------------------------------------------->
+
+    <!-- Footer start ----------------------------------------------------------------------------------------------------------------------------->
+
+    <footer>
+      <div class="container">
+        <div
+          class="d-sm-flex justify-content-between tiny-text p-3 text-muted text-center"
+        >
+          <div>Copyright &copy; 2022 sams shower caulking</div>
+          <div>
+            Design + Development by
+            <a
+              href="https://shalomkohn.com"
+              target="_blank"
+              class="text-decoration-none text-dark"
+              >Shalom web developement</a
+            >
+          </div>
         </div>
-    </div>
-<!-- Galary End ----------------------------------------------------------------------------------------------------------------------------->
-
-<!-- Footer start ----------------------------------------------------------------------------------------------------------------------------->
-
-<footer>
-    <div class="container">
-        <div class="d-sm-flex justify-content-between tiny-text p-3 text-muted text-center">
-            <div>Copyright &copy; 2022 sams shower caulking </div>
-            <div>Design + Development by <a href="https://shalomkohn.com"  target="_blank" class="text-decoration-none text-dark">Shalom web developement</a></div>
-        </div> 
-    </div>
-
-</footer>
-<!-- Bootstrap javascript ----------------------------------------------------------------------------------------------------------------------------->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-
-</body>
+      </div>
+    </footer>
+    <!-- Bootstrap javascript ----------------------------------------------------------------------------------------------------------------------------->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
